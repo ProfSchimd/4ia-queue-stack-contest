@@ -30,9 +30,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("Team \"Ciad\"");
+        System.out.println("------------");
+        System.out.println("Test 'Queue'");
+        System.out.println("------------");
         IQueue q = new Queue((int)MEGA);
+        queuePerf(q);
+        System.out.println();
+        System.out.println("Test 'Stack'");
+        System.out.println("------------");
         IStack s = new Stack((int)MEGA);
         stackPerf(s);
-        queuePerf(q);
+        
     }
 }
