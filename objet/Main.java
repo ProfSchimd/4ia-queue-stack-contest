@@ -29,9 +29,9 @@ public class Main {
         
     }
 
-    public static void main(String[] args) throws Exception {
-        System.out.println("Team \"The boys\"");
-        System.out.println("---------------");
+    public static void main(String[] args) {
+        System.out.println("Team \"Objet\"");
+        System.out.println("------------");
         System.out.println("Test 'Queue'");
         System.out.println("------------");
         IQueue q = new Queue();
@@ -39,7 +39,7 @@ public class Main {
         System.out.println();
         System.out.println("Test 'Stack'");
         System.out.println("------------");
-        IStack s = new Stack(100);
+        IStack s = new Stack();
         stackPerf(s);
     }
 }
